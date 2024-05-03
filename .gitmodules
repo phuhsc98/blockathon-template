@@ -1,0 +1,8 @@
+[submodule "src/api"]
+	path = src/api
+	url = ../api.git
+	branch = dev
+[submodule "src/data"]
+	path = src/data
+	url = ../data.git
+	branch = dev

@@ -1,0 +1,24 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "jsxSingleQuote": true,
+  "useTabs": false,
+  "endOfLine": "lf",
+  "importOrder": [
+    "utils/constants/(.*)$",
+    "utils/(.*)$",
+    "api/(.*)$",
+    "types/(.*)$",
+    "hooks/(.*)$",
+    "containers/(.*)$",
+    "components/Base/(.*)$",
+    "components/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

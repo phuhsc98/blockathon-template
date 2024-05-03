@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"],
+      "@api/*": ["src/api/gen/ts/*"],
+      "@front-end/core": ["src/legacy/core"],
+      "@front-end/hooks": ["src/legacy/hooks"],
+      "@front-end/common-ui": ["src/legacy/common-ui"]
+    }
+  }
+}
+// "paths": {
+//   "@api/*": ["api/gen/ts/*"],
+//   "@constants": ["src/constants"],
+//   "@front-end/core": ["src/legacy/core"],
+//   "@front-end/hooks": ["src/legacy/hooks"],
+//   "@front-end/common-ui": ["src/legacy/common-ui"],
+//   "@containers/*": ["src/containers/*"],
+//   "@components/*": ["src/components/*"],
+//   "@compositions/*": ["src/compositions/*"],
+//   "@hooks/*": ["src/hooks/*"],
+//   "@contexts/*": ["src/contexts/*"],
+//   "@utils/*": ["src/utils/*"],
+//   "types": ["src/types"]
+// }
